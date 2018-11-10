@@ -21,38 +21,25 @@ kotlin {
         fromPreset(presets.jvm, 'android')
     }
     sourceSets {
-        commonMain {
+        common {
             dependencies {
                 implementation 'org.jetbrains.kotlin:kotlin-stdlib-common'
             }
         }
-        commonTest {
-            dependencies {
-                implementation 'org.jetbrains.kotlin:kotlin-test-common'
-                implementation 'org.jetbrains.kotlin:kotlin-test-annotations-common'
-            }
-        }
-        jvmMain {
+        backend {
             dependencies {
                 implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
             }
         }
-        jvmTest {
-            dependencies {
-                implementation 'org.jetbrains.kotlin:kotlin-test'
-                implementation 'org.jetbrains.kotlin:kotlin-test-junit'
-            }
-        }
-        jsMain {
+        frontend {
             dependencies {
                 implementation 'org.jetbrains.kotlin:kotlin-stdlib-js'
             }
         }
-        jsTest {
+        android {
             dependencies {
-                implementation 'org.jetbrains.kotlin:kotlin-test-js'
+                implementation 'org.jetbrains.kotlin:kotlin-stdlib'
             }
         }
-        androidMain{}
     }
 }
