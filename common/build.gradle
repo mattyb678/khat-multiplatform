@@ -14,17 +14,17 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                api 'org.jetbrains.kotlin:kotlin-stdlib-common'
+                api libaries.kotlin_stdlib_common
             }
         }
         jvmMain {
             dependencies {
-                api 'org.jetbrains.kotlin:kotlin-stdlib'
+                api libaries.kotlin_stdlib
             }
         }
         jsMain {
             dependencies {
-                api 'org.jetbrains.kotlin:kotlin-stdlib-js'
+                api libaries.kotlin_stdlib_js
             }
         }
     }

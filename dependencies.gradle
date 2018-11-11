@@ -1,0 +1,14 @@
+ext {
+    kotlin_version = '1.3.0'
+    ktor_version = '1.0.0-beta-3'
+
+    libaries = [
+            kotlin_stdlib_common : "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version",
+            kotlin_stdlib_jre7 : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+            kotlin_stdlib_jre8 : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version",
+            kotlin_stdlib_js : "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version",
+            kotlin_stdlib : "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
+            
+            ktor_server_netty : "io.ktor:ktor-server-netty:$ktor_version"
+    ]
+}

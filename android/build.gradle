@@ -6,19 +6,17 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.meetup.kotlin.utah"
+        setApplicationId("com.meetup.kotlin.utah")
         minSdkVersion 27
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        setVersionCode(1)
+        setVersionName("1.0")
+        setTestInstrumentationRunner("android.support.test.runner.AndroidJUnitRunner")
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            setMinifyEnabled(false)
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
