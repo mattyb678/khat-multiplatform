@@ -1,0 +1,37 @@
+<!--
+  ~ /*************************************************************************
+  ~  * ADOBE CONFIDENTIAL
+  ~  * ___________________
+  ~  *
+  ~  *  Copyright 2018 Adobe Systems Incorporated
+  ~  *  All Rights Reserved.
+  ~  *
+  ~  * NOTICE:  All information contained herein is, and remains
+  ~  * the property of Adobe Systems Incorporated and its suppliers,
+  ~  * if any.  The intellectual and technical concepts contained
+  ~  * herein are proprietary to Adobe Systems Incorporated and its
+  ~  * suppliers and are protected by all applicable intellectual property
+  ~  * laws, including trade secret and copyright laws.
+  ~  * Dissemination of this information or reproduction of this material
+  ~  * is strictly forbidden unless prior written permission is obtained
+  ~  * from Adobe Systems Incorporated.
+  ~  **************************************************************************/
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
