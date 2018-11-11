@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B192D8E02198A74300CA8329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192D8DF2198A74300CA8329 /* AppDelegate.swift */; };
+		B192D8E22198A74300CA8329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192D8E12198A74300CA8329 /* ViewController.swift */; };
+		B192D8E52198A74300CA8329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B192D8E32198A74300CA8329 /* Main.storyboard */; };
+		B192D8E72198A74500CA8329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B192D8E62198A74500CA8329 /* Assets.xcassets */; };
+		B192D8EA2198A74500CA8329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B192D8E82198A74500CA8329 /* LaunchScreen.storyboard */; };
+		B192D8F52198A74600CA8329 /* Khat_MultiplatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192D8F42198A74600CA8329 /* Khat_MultiplatformTests.swift */; };
+		B192D9002198A74600CA8329 /* Khat_MultiplatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192D8FF2198A74600CA8329 /* Khat_MultiplatformUITests.swift */; };
+		B192D9122198A85700CA8329 /* common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192D90F2198A84C00CA8329 /* common.framework */; };
+		B192D9132198A85700CA8329 /* common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192D90F2198A84C00CA8329 /* common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B192D8F12198A74600CA8329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192D8D42198A74300CA8329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B192D8DB2198A74300CA8329;
+			remoteInfo = "Khat-Multiplatform";
+		};
+		B192D8FC2198A74600CA8329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192D8D42198A74300CA8329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B192D8DB2198A74300CA8329;
+			remoteInfo = "Khat-Multiplatform";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B192D9142198A85700CA8329 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B192D9132198A85700CA8329 /* common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B192D8DC2198A74300CA8329 /* Khat-Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khat-Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B192D8DF2198A74300CA8329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B192D8E12198A74300CA8329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B192D8E42198A74300CA8329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B192D8E62198A74500CA8329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B192D8E92198A74500CA8329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B192D8EB2198A74600CA8329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B192D8F02198A74600CA8329 /* Khat-MultiplatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khat-MultiplatformTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B192D8F42198A74600CA8329 /* Khat_MultiplatformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khat_MultiplatformTests.swift; sourceTree = "<group>"; };
+		B192D8F62198A74600CA8329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B192D8FB2198A74600CA8329 /* Khat-MultiplatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khat-MultiplatformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B192D8FF2198A74600CA8329 /* Khat_MultiplatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khat_MultiplatformUITests.swift; sourceTree = "<group>"; };
+		B192D9012198A74600CA8329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B192D90F2198A84C00CA8329 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = common.framework; sourceTree = "<group>"; };
+		B192D9102198A84C00CA8329 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gradlew; sourceTree = "<group>"; };
+		B192D9112198A84C00CA8329 /* common.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = common.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B192D8D92198A74300CA8329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192D9122198A85700CA8329 /* common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192D8ED2198A74600CA8329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192D8F82198A74600CA8329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B192D8D32198A74300CA8329 = {
+			isa = PBXGroup;
+			children = (
+				B192D90E2198A84C00CA8329 /* xcode-frameworks */,
+				B192D8DE2198A74300CA8329 /* Khat-Multiplatform */,
+				B192D8F32198A74600CA8329 /* Khat-MultiplatformTests */,
+				B192D8FE2198A74600CA8329 /* Khat-MultiplatformUITests */,
+				B192D8DD2198A74300CA8329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B192D8DD2198A74300CA8329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B192D8DC2198A74300CA8329 /* Khat-Multiplatform.app */,
+				B192D8F02198A74600CA8329 /* Khat-MultiplatformTests.xctest */,
+				B192D8FB2198A74600CA8329 /* Khat-MultiplatformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B192D8DE2198A74300CA8329 /* Khat-Multiplatform */ = {
+			isa = PBXGroup;
+			children = (
+				B192D8DF2198A74300CA8329 /* AppDelegate.swift */,
+				B192D8E12198A74300CA8329 /* ViewController.swift */,
+				B192D8E32198A74300CA8329 /* Main.storyboard */,
+				B192D8E62198A74500CA8329 /* Assets.xcassets */,
+				B192D8E82198A74500CA8329 /* LaunchScreen.storyboard */,
+				B192D8EB2198A74600CA8329 /* Info.plist */,
+			);
+			path = "Khat-Multiplatform";
+			sourceTree = "<group>";
+		};
+		B192D8F32198A74600CA8329 /* Khat-MultiplatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				B192D8F42198A74600CA8329 /* Khat_MultiplatformTests.swift */,
+				B192D8F62198A74600CA8329 /* Info.plist */,
+			);
+			path = "Khat-MultiplatformTests";
+			sourceTree = "<group>";
+		};
+		B192D8FE2198A74600CA8329 /* Khat-MultiplatformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B192D8FF2198A74600CA8329 /* Khat_MultiplatformUITests.swift */,
+				B192D9012198A74600CA8329 /* Info.plist */,
+			);
+			path = "Khat-MultiplatformUITests";
+			sourceTree = "<group>";
+		};
+		B192D90E2198A84C00CA8329 /* xcode-frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B192D90F2198A84C00CA8329 /* common.framework */,
+				B192D9102198A84C00CA8329 /* gradlew */,
+				B192D9112198A84C00CA8329 /* common.framework.dSYM */,
+			);
+			name = "xcode-frameworks";
+			path = "../../common/build/xcode-frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B192D8DB2198A74300CA8329 /* Khat-Multiplatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B192D9042198A74600CA8329 /* Build configuration list for PBXNativeTarget "Khat-Multiplatform" */;
+			buildPhases = (
+				B192D9152198A90100CA8329 /* ShellScript */,
+				B192D8D82198A74300CA8329 /* Sources */,
+				B192D8D92198A74300CA8329 /* Frameworks */,
+				B192D8DA2198A74300CA8329 /* Resources */,
+				B192D9142198A85700CA8329 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khat-Multiplatform";
+			productName = "Khat-Multiplatform";
+			productReference = B192D8DC2198A74300CA8329 /* Khat-Multiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B192D8EF2198A74600CA8329 /* Khat-MultiplatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B192D9072198A74600CA8329 /* Build configuration list for PBXNativeTarget "Khat-MultiplatformTests" */;
+			buildPhases = (
+				B192D8EC2198A74600CA8329 /* Sources */,
+				B192D8ED2198A74600CA8329 /* Frameworks */,
+				B192D8EE2198A74600CA8329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B192D8F22198A74600CA8329 /* PBXTargetDependency */,
+			);
+			name = "Khat-MultiplatformTests";
+			productName = "Khat-MultiplatformTests";
+			productReference = B192D8F02198A74600CA8329 /* Khat-MultiplatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B192D8FA2198A74600CA8329 /* Khat-MultiplatformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B192D90A2198A74600CA8329 /* Build configuration list for PBXNativeTarget "Khat-MultiplatformUITests" */;
+			buildPhases = (
+				B192D8F72198A74600CA8329 /* Sources */,
+				B192D8F82198A74600CA8329 /* Frameworks */,
+				B192D8F92198A74600CA8329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B192D8FD2198A74600CA8329 /* PBXTargetDependency */,
+			);
+			name = "Khat-MultiplatformUITests";
+			productName = "Khat-MultiplatformUITests";
+			productReference = B192D8FB2198A74600CA8329 /* Khat-MultiplatformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B192D8D42198A74300CA8329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Matthew Berteaux";
+				TargetAttributes = {
+					B192D8DB2198A74300CA8329 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					B192D8EF2198A74600CA8329 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B192D8DB2198A74300CA8329;
+					};
+					B192D8FA2198A74600CA8329 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = B192D8DB2198A74300CA8329;
+					};
+				};
+			};
+			buildConfigurationList = B192D8D72198A74300CA8329 /* Build configuration list for PBXProject "Khat-Multiplatform" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B192D8D32198A74300CA8329;
+			productRefGroup = B192D8DD2198A74300CA8329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B192D8DB2198A74300CA8329 /* Khat-Multiplatform */,
+				B192D8EF2198A74600CA8329 /* Khat-MultiplatformTests */,
+				B192D8FA2198A74600CA8329 /* Khat-MultiplatformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B192D8DA2198A74300CA8329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192D8EA2198A74500CA8329 /* LaunchScreen.storyboard in Resources */,
+				B192D8E72198A74500CA8329 /* Assets.xcassets in Resources */,
+				B192D8E52198A74300CA8329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192D8EE2198A74600CA8329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192D8F92198A74600CA8329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B192D9152198A90100CA8329 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$SRCROOT\"\ncd \"$SRCROOT/../../common/build/xcode-frameworks\"\nls\n./gradlew :common:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B192D8D82198A74300CA8329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192D8E22198A74300CA8329 /* ViewController.swift in Sources */,
+				B192D8E02198A74300CA8329 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192D8EC2198A74600CA8329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192D8F52198A74600CA8329 /* Khat_MultiplatformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B192D8F72198A74600CA8329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B192D9002198A74600CA8329 /* Khat_MultiplatformUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B192D8F22198A74600CA8329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B192D8DB2198A74300CA8329 /* Khat-Multiplatform */;
+			targetProxy = B192D8F12198A74600CA8329 /* PBXContainerItemProxy */;
+		};
+		B192D8FD2198A74600CA8329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B192D8DB2198A74300CA8329 /* Khat-Multiplatform */;
+			targetProxy = B192D8FC2198A74600CA8329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B192D8E32198A74300CA8329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B192D8E42198A74300CA8329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B192D8E82198A74500CA8329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B192D8E92198A74500CA8329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B192D9022198A74600CA8329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B192D9032198A74600CA8329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B192D9052198A74600CA8329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../common/build/xcode-frameworks";
+				INFOPLIST_FILE = "Khat-Multiplatform/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.kotlin.utah.Khat-Multiplatform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B192D9062198A74600CA8329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../common/build/xcode-frameworks";
+				INFOPLIST_FILE = "Khat-Multiplatform/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.kotlin.utah.Khat-Multiplatform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B192D9082198A74600CA8329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Khat-MultiplatformTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.kotlin.utah.Khat-MultiplatformTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khat-Multiplatform.app/Khat-Multiplatform";
+			};
+			name = Debug;
+		};
+		B192D9092198A74600CA8329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Khat-MultiplatformTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.kotlin.utah.Khat-MultiplatformTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khat-Multiplatform.app/Khat-Multiplatform";
+			};
+			name = Release;
+		};
+		B192D90B2198A74600CA8329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Khat-MultiplatformUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.kotlin.utah.Khat-MultiplatformUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khat-Multiplatform";
+			};
+			name = Debug;
+		};
+		B192D90C2198A74600CA8329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Khat-MultiplatformUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetup.kotlin.utah.Khat-MultiplatformUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khat-Multiplatform";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B192D8D72198A74300CA8329 /* Build configuration list for PBXProject "Khat-Multiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192D9022198A74600CA8329 /* Debug */,
+				B192D9032198A74600CA8329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B192D9042198A74600CA8329 /* Build configuration list for PBXNativeTarget "Khat-Multiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192D9052198A74600CA8329 /* Debug */,
+				B192D9062198A74600CA8329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B192D9072198A74600CA8329 /* Build configuration list for PBXNativeTarget "Khat-MultiplatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192D9082198A74600CA8329 /* Debug */,
+				B192D9092198A74600CA8329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B192D90A2198A74600CA8329 /* Build configuration list for PBXNativeTarget "Khat-MultiplatformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192D90B2198A74600CA8329 /* Debug */,
+				B192D90C2198A74600CA8329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B192D8D42198A74300CA8329 /* Project object */;
+}
