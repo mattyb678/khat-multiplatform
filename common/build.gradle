@@ -9,22 +9,28 @@ kotlin {
             compilations.main.outputKinds('FRAMEWORK')
         }
         fromPreset(presets.js, 'js')
-        fromPreset(presets.jvm, 'jvm')
+        fromPreset(presets.jvm, 'android')
+        fromPreset(presets.jvm, 'jvm8')
     }
     sourceSets {
         commonMain {
             dependencies {
-                api libaries.kotlin_stdlib_common
+                api "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version"
             }
         }
-        jvmMain {
+        androidMain {
             dependencies {
-                api libaries.kotlin_stdlib
+                api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+            }
+        }
+        jvm8Main {
+            dependencies {
+                api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
             }
         }
         jsMain {
             dependencies {
-                api libaries.kotlin_stdlib_js
+                api "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
             }
         }
     }

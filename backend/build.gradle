@@ -1,10 +1,9 @@
 // build.gradle
 
-apply plugin: 'java'
 apply plugin: 'kotlin'
 apply plugin: 'application'
 
-mainClassName = 'ApplicationKt'
+mainClassName = 'com.meetup.kotlin.utah.ApplicationKt'
 
 sourceCompatibility = 1.8
 compileKotlin { kotlinOptions.jvmTarget = "1.8" }
@@ -18,10 +17,10 @@ repositories {
 }
 
 dependencies {
-    implementation project(':common')
+    implementation project(path: ':common', configuration: 'jvm8RuntimeElements')
 
-    implementation libaries.kotlin_stdlib
-    implementation libaries.ktor_server_netty
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation "io.ktor:ktor-server-netty:$ktor_version"
     implementation "ch.qos.logback:logback-classic:1.2.3"
     testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
