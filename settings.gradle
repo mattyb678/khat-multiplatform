@@ -11,3 +11,9 @@ rootProject.name = 'khat-multiplatform'
 
 
 enableFeaturePreview('GRADLE_METADATA')
+
+
+include ':android'
+include ':backend'
+include ':common'
+include ':frontend'
