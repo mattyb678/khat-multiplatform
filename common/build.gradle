@@ -8,7 +8,13 @@ kotlin {
         fromPreset(iOSTarget, 'iOS') {
             compilations.main.outputKinds('FRAMEWORK')
         }
-        fromPreset(presets.js, 'js')
+        fromPreset(presets.js, 'js') {
+            tasks.getByName(compilations.main.compileKotlinTaskName).kotlinOptions {
+                sourceMap = true //create source maps for js files
+                sourceMapEmbedSources = "always" //embed the kotlin files into the sourcemaps for viewing in the browser
+                moduleKind = 'commonjs' //module type to be loaded by webpack
+            }
+        }
         fromPreset(presets.jvm, 'android')
         fromPreset(presets.jvm, 'jvm8')
     }
