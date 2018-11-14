@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
         routing {
 
             get("/") {
-                call.respondText("Hello World ${Platform.name}!", ContentType.Text.Plain)
+                call.respondText("Hello World !", ContentType.Text.Plain)
             }
             get("/demo") {
                 call.respondText("HELLO WORLD!")

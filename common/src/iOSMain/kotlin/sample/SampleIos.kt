@@ -7,5 +7,5 @@ actual class Sample {
 }
 
 actual object Platform {
-    actual val name = UIDevice.currentDevice.name
+    actual val name = UIDevice.currentDevice.name + " iOS"
 }

@@ -1,0 +1,41 @@
+// build.gradle
+
+apply plugin: 'org.jetbrains.kotlin.frontend'
+apply plugin: 'kotlin2js'
+
+kotlinFrontend {
+    downloadNodeJsVersion = '10.0.0'
+
+    npm {
+        dependency("react", "16.4.2")
+        dependency("react-dom", "16.4.2")
+        dependency("react-router-dom", "4.2.2")
+    }
+
+    sourceMaps = true
+
+    webpackBundle {
+        bundleName = "main"
+        sourceMapEnabled = true
+        contentPath = file('src/main/public')
+        proxyUrl = "http://localhost:8080"
+    }
+}
+
+dependencies {
+    compile project(':common')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+
+//    compile(dep.kotlinx_html) { force = true }
+//    compile dep.kotlin_react
+//    compile dep.kotlin_test_js
+}
+
+compileKotlin2Js {
+    kotlinOptions.metaInfo = true
+    kotlinOptions.sourceMap = true
+    kotlinOptions.suppressWarnings = true
+    kotlinOptions.verbose = true
+    kotlinOptions.moduleKind = "commonjs"
+    kotlinOptions.outputFile = "$project.buildDir.path/js/${project.name}.js"
+}
