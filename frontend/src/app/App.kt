@@ -4,13 +4,14 @@ import react.*
 import react.dom.*
 import logo.*
 import ticker.*
+import sample.*
 
 class App : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
         div("App-header") {
             logo()
             h2 {
-                +"Welcome to React with Kotlin"
+                +"Welcome to React with Kotlin ${Platform.name}"
             }
         }
         p("App-intro") {
